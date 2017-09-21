@@ -1,0 +1,519 @@
+Release 12.4 Map M.81d (nt64)
+Xilinx Mapping Report File for Design 'ppm'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off
+-c 100 -o ppm_map.ncd ppm.ngd ppm.pcf 
+Target Device  : xc3s500e
+Target Package : fg320
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.52.76.2 $
+Mapped Date    : Tue Sep 10 07:29:26 2013
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:           138 out of   9,312    1%
+  Number of 4 input LUTs:               434 out of   9,312    4%
+Logic Distribution:
+  Number of occupied Slices:            282 out of   4,656    6%
+    Number of Slices containing only related logic:     282 out of     282 100%
+    Number of Slices containing unrelated logic:          0 out of     282   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:         434 out of   9,312    4%
+  Number of bonded IOBs:                 32 out of     232   13%
+    IOB Flip Flops:                       1
+  Number of BUFGMUXs:                     4 out of      24   16%
+
+  Number of RPM macros:           45
+Average Fanout of Non-Clock Nets:                3.04
+
+Peak Memory Usage:  253 MB
+Total REAL time to MAP completion:  1 secs 
+Total CPU time to MAP completion:   1 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network U65/D7 has no load.
+INFO:LIT:395 - The above info message is repeated 34 more times for the
+   following (max. 5 shown):
+   U184/Q3,
+   U119/CEO,
+   U171/OFL,
+   U171/S2,
+   U171/S3
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 110 block(s) removed
+  54 block(s) optimized away
+ 110 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "U65/D7" is sourceless and has been removed.
+The signal "U184/Q3" is sourceless and has been removed.
+The signal "U119/CEO" is sourceless and has been removed.
+The signal "U119/TC" is sourceless and has been removed.
+ Sourceless block "U119/I_36_99" (AND) removed.
+The signal "U171/C2O" is sourceless and has been removed.
+ Sourceless block "U171/I_36_259" (XOR) removed.
+  The signal "U171/OFL" is sourceless and has been removed.
+The signal "U171/CO" is sourceless and has been removed.
+The signal "U171/I2" is sourceless and has been removed.
+ Sourceless block "U171/I_36_76" (XOR) removed.
+  The signal "U171/S2" is sourceless and has been removed.
+ Sourceless block "U171/I_36_62" (MUX) removed.
+The signal "U171/I3" is sourceless and has been removed.
+ Sourceless block "U171/I_36_58" (MUX) removed.
+ Sourceless block "U171/I_36_75" (XOR) removed.
+  The signal "U171/S3" is sourceless and has been removed.
+The signal "U171/dummy" is sourceless and has been removed.
+The signal "U171/I_36_55/O" is sourceless and has been removed.
+The signal "U151/OFL" is sourceless and has been removed.
+The signal "U151/dummy" is sourceless and has been removed.
+The signal "U150/OFL" is sourceless and has been removed.
+The signal "U150/dummy" is sourceless and has been removed.
+The signal "U149/OFL" is sourceless and has been removed.
+The signal "U149/dummy" is sourceless and has been removed.
+The signal "U148/OFL" is sourceless and has been removed.
+The signal "U148/dummy" is sourceless and has been removed.
+The signal "U190/OFL" is sourceless and has been removed.
+The signal "U190/S<0>" is sourceless and has been removed.
+The signal "U190/S<1>" is sourceless and has been removed.
+The signal "U190/S<2>" is sourceless and has been removed.
+The signal "U190/S<3>" is sourceless and has been removed.
+The signal "U190/S<4>" is sourceless and has been removed.
+The signal "U190/S<5>" is sourceless and has been removed.
+The signal "U190/S<6>" is sourceless and has been removed.
+The signal "U190/S<7>" is sourceless and has been removed.
+The signal "U190/dummy" is sourceless and has been removed.
+The signal "U182/OFL" is sourceless and has been removed.
+The signal "U182/dummy" is sourceless and has been removed.
+The signal "U181/OFL" is sourceless and has been removed.
+The signal "U181/dummy" is sourceless and has been removed.
+The signal "U191/LE0_1" is sourceless and has been removed.
+ Sourceless block "U191/I_36_18" (OR) removed.
+  The signal "U191/LT0_1" is sourceless and has been removed.
+   Sourceless block "U191/I_36_36" (AND) removed.
+    The signal "U191/LTA" is sourceless and has been removed.
+     Sourceless block "U191/I_36_3" (OR) removed.
+      The signal "U191/LT" is sourceless and has been removed.
+The signal "U191/LTB" is sourceless and has been removed.
+The signal "U191/LTC" is sourceless and has been removed.
+The signal "U191/LT_1" is sourceless and has been removed.
+The signal "U183/LE0_1" is sourceless and has been removed.
+ Sourceless block "U183/I_36_18" (OR) removed.
+  The signal "U183/LT0_1" is sourceless and has been removed.
+   Sourceless block "U183/I_36_36" (AND) removed.
+    The signal "U183/LTA" is sourceless and has been removed.
+     Sourceless block "U183/I_36_3" (OR) removed.
+      The signal "U183/LT" is sourceless and has been removed.
+The signal "U183/LTB" is sourceless and has been removed.
+The signal "U183/LTC" is sourceless and has been removed.
+The signal "U183/LT_1" is sourceless and has been removed.
+The signal "U186/LE0_1" is sourceless and has been removed.
+ Sourceless block "U186/I_36_46" (OR) removed.
+  The signal "U186/LT" is sourceless and has been removed.
+The signal "U186/LT_1" is sourceless and has been removed.
+The signal "M2/U197/GE0_1" is sourceless and has been removed.
+ Sourceless block "M2/U197/I_36_18" (OR) removed.
+  The signal "M2/U197/GT0_1" is sourceless and has been removed.
+   Sourceless block "M2/U197/I_36_1" (AND) removed.
+    The signal "M2/U197/GTA" is sourceless and has been removed.
+     Sourceless block "M2/U197/I_36_12" (OR) removed.
+      The signal "M2/U197/GT" is sourceless and has been removed.
+The signal "M2/U197/GT_1" is sourceless and has been removed.
+The signal "M2/U194/GE0_1" is sourceless and has been removed.
+ Sourceless block "M2/U194/I_36_18" (OR) removed.
+  The signal "M2/U194/GT0_1" is sourceless and has been removed.
+   Sourceless block "M2/U194/I_36_1" (AND) removed.
+    The signal "M2/U194/GTA" is sourceless and has been removed.
+     Sourceless block "M2/U194/I_36_12" (OR) removed.
+      The signal "M2/U194/GT" is sourceless and has been removed.
+The signal "M2/U194/GT_1" is sourceless and has been removed.
+The signal "M2/U193/GE0_1" is sourceless and has been removed.
+ Sourceless block "M2/U193/I_36_18" (OR) removed.
+  The signal "M2/U193/GT0_1" is sourceless and has been removed.
+   Sourceless block "M2/U193/I_36_1" (AND) removed.
+    The signal "M2/U193/GTA" is sourceless and has been removed.
+     Sourceless block "M2/U193/I_36_12" (OR) removed.
+      The signal "M2/U193/GT" is sourceless and has been removed.
+The signal "M2/U193/GT_1" is sourceless and has been removed.
+The signal "U195/CEO" is sourceless and has been removed.
+The signal "U86/CEO" is sourceless and has been removed.
+The signal "U86/TC" is sourceless and has been removed.
+ Sourceless block "U86/I_36_52" (AND) removed.
+The signal "U6/CEO" is sourceless and has been removed.
+The signal "U67/CEO" is sourceless and has been removed.
+The signal "U67/Q<10>" is sourceless and has been removed.
+ Sourceless block "U67/I_36_26" (AND) removed.
+  The signal "U67/T11" is sourceless and has been removed.
+   Sourceless block "U67/I_Q11/I_36_32" (XOR) removed.
+    The signal "U67/I_Q11/TQ" is sourceless and has been removed.
+     Sourceless block "U67/I_Q11/I_36_35" (FF) removed.
+      The signal "U67/Q<11>" is sourceless and has been removed.
+       Sourceless block "U67/I_36_29" (AND) removed.
+        The signal "U67/T12" is sourceless and has been removed.
+         Sourceless block "U67/I_36_22" (AND) removed.
+          The signal "U67/TC" is sourceless and has been removed.
+           Sourceless block "U67/I_36_54" (AND) removed.
+         Sourceless block "U67/I_36_23" (AND) removed.
+          The signal "U67/T13" is sourceless and has been removed.
+           Sourceless block "U67/I_Q13/I_36_32" (XOR) removed.
+            The signal "U67/I_Q13/TQ" is sourceless and has been removed.
+             Sourceless block "U67/I_Q13/I_36_35" (FF) removed.
+              The signal "U67/Q<13>" is sourceless and has been removed.
+               Sourceless block "U67/I_36_24" (AND) removed.
+                The signal "U67/T14" is sourceless and has been removed.
+                 Sourceless block "U67/I_Q14/I_36_32" (XOR) removed.
+                  The signal "U67/I_Q14/TQ" is sourceless and has been removed.
+                   Sourceless block "U67/I_Q14/I_36_35" (FF) removed.
+                    The signal "U67/Q<14>" is sourceless and has been removed.
+                     Sourceless block "U67/I_36_25" (AND) removed.
+                      The signal "U67/T15" is sourceless and has been removed.
+                       Sourceless block "U67/I_Q15/I_36_32" (XOR) removed.
+                        The signal "U67/I_Q15/TQ" is sourceless and has been removed.
+                         Sourceless block "U67/I_Q15/I_36_35" (FF) removed.
+                          The signal "U67/Q<15>" is sourceless and has been removed.
+         Sourceless block "U67/I_Q12/I_36_32" (XOR) removed.
+          The signal "U67/I_Q12/TQ" is sourceless and has been removed.
+           Sourceless block "U67/I_Q12/I_36_35" (FF) removed.
+            The signal "U67/Q<12>" is sourceless and has been removed.
+ Sourceless block "U67/I_Q10/I_36_32" (XOR) removed.
+  The signal "U67/I_Q10/TQ" is sourceless and has been removed.
+   Sourceless block "U67/I_Q10/I_36_35" (FF) removed.
+The signal "U67/Q<8>" is sourceless and has been removed.
+ Sourceless block "U67/I_36_27" (AND) removed.
+  The signal "U67/T10" is sourceless and has been removed.
+ Sourceless block "U67/I_36_28" (AND) removed.
+  The signal "U67/T9" is sourceless and has been removed.
+   Sourceless block "U67/I_Q9/I_36_32" (XOR) removed.
+    The signal "U67/I_Q9/TQ" is sourceless and has been removed.
+     Sourceless block "U67/I_Q9/I_36_35" (FF) removed.
+      The signal "U67/Q<9>" is sourceless and has been removed.
+ Sourceless block "U67/I_Q8/I_36_32" (XOR) removed.
+  The signal "U67/I_Q8/TQ" is sourceless and has been removed.
+   Sourceless block "U67/I_Q8/I_36_35" (FF) removed.
+The signal "U67/T8" is sourceless and has been removed.
+The signal "U66/CEO" is sourceless and has been removed.
+The signal "U66/TC" is sourceless and has been removed.
+ Sourceless block "U66/I_36_54" (AND) removed.
+The signal "U269/CEO" is sourceless and has been removed.
+The signal "U269/TC" is sourceless and has been removed.
+ Sourceless block "U269/I_36_67" (AND) removed.
+The signal "M4/U222/Q3" is sourceless and has been removed.
+The signal "U64/CEO" is sourceless and has been removed.
+The signal "U64/Q3" is sourceless and has been removed.
+ Sourceless block "U64/I_36_87" (AND) removed.
+  The signal "U64/TC" is sourceless and has been removed.
+   Sourceless block "U64/I_36_107" (AND) removed.
+ Sourceless block "U64/I_Q3/I_36_32" (XOR) removed.
+  The signal "U64/I_Q3/TQ" is sourceless and has been removed.
+   Sourceless block "U64/I_Q3/I_36_30/I_36_7" (AND) removed.
+    The signal "U64/I_Q3/I_36_30/M0" is sourceless and has been removed.
+     Sourceless block "U64/I_Q3/I_36_30/I_36_8" (OR) removed.
+      The signal "U64/I_Q3/MD" is sourceless and has been removed.
+       Sourceless block "U64/I_Q3/I_36_35" (FF) removed.
+The signal "U64/T3" is sourceless and has been removed.
+The signal "U64/I_Q3/I_36_30/M1" is sourceless and has been removed.
+Unused block "M2/U193/I_36_16" (AND) removed.
+Unused block "M2/U193/I_36_9" (AND) removed.
+Unused block "M2/U194/I_36_16" (AND) removed.
+Unused block "M2/U194/I_36_9" (AND) removed.
+Unused block "M2/U197/I_36_16" (AND) removed.
+Unused block "M2/U197/I_36_9" (AND) removed.
+Unused block "M4/U222/I_Q3" (FF) removed.
+Unused block "U119/I_36_105" (AND) removed.
+Unused block "U148/I_36_259" (XOR) removed.
+Unused block "U148/XST_GND" (ZERO) removed.
+Unused block "U149/I_36_259" (XOR) removed.
+Unused block "U149/XST_GND" (ZERO) removed.
+Unused block "U150/I_36_259" (XOR) removed.
+Unused block "U150/XST_GND" (ZERO) removed.
+Unused block "U151/I_36_259" (XOR) removed.
+Unused block "U151/XST_GND" (ZERO) removed.
+Unused block "U171/I_36_241" (XOR) removed.
+Unused block "U171/I_36_242" (XOR) removed.
+Unused block "U171/XST_GND" (ZERO) removed.
+Unused block "U181/I_36_239" (XOR) removed.
+Unused block "U181/XST_GND" (ZERO) removed.
+Unused block "U182/I_36_239" (XOR) removed.
+Unused block "U182/XST_GND" (ZERO) removed.
+Unused block "U183/I_36_16" (AND) removed.
+Unused block "U183/I_36_21" (AND) removed.
+Unused block "U183/I_36_5" (AND) removed.
+Unused block "U183/I_36_9" (AND) removed.
+Unused block "U184/I_Q3" (FF) removed.
+Unused block "U186/I_36_30" (AND) removed.
+Unused block "U186/I_36_44" (AND) removed.
+Unused block "U190/I_36_239" (XOR) removed.
+Unused block "U190/I_36_73" (XOR) removed.
+Unused block "U190/I_36_74" (XOR) removed.
+Unused block "U190/I_36_75" (XOR) removed.
+Unused block "U190/I_36_76" (XOR) removed.
+Unused block "U190/I_36_77" (XOR) removed.
+Unused block "U190/I_36_78" (XOR) removed.
+Unused block "U190/I_36_80" (XOR) removed.
+Unused block "U190/I_36_81" (XOR) removed.
+Unused block "U190/XST_GND" (ZERO) removed.
+Unused block "U191/I_36_16" (AND) removed.
+Unused block "U191/I_36_21" (AND) removed.
+Unused block "U191/I_36_5" (AND) removed.
+Unused block "U191/I_36_9" (AND) removed.
+Unused block "U195/I_36_52" (AND) removed.
+Unused block "U269/I_36_31" (AND) removed.
+Unused block "U6/I_36_52" (AND) removed.
+Unused block "U64/I_36_99" (AND) removed.
+Unused block "U64/I_Q3/I_36_30/I_36_9" (AND) removed.
+Unused block "U65/I_36_30" (AND) removed.
+Unused block "U66/I_36_22" (AND) removed.
+Unused block "U67/I_36_14" (AND) removed.
+Unused block "U86/I_36_37" (AND) removed.
+Unused block "U171/I_36_55" (MUX) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+INV 		M2/U195/XLXI_118
+INV 		M2/U196/XLXI_118
+GND 		M2/XLXI_26
+AND3 		U112/I_M23/I_36_30
+AND3 		U112/I_M45/I_36_30
+AND3 		U112/I_M67/I_36_30
+AND3B1 		U112/I_M67/I_36_31
+OR2 		U112/I_M67/I_36_38
+INV 		U125/XLXI_118
+INV 		U152/XLXI_118
+INV 		U156/XLXI_7
+INV 		U156/XLXI_8
+INV 		U157/XLXI_7
+INV 		U157/XLXI_8
+INV 		U158/XLXI_118
+INV 		U170/XLXI_7
+INV 		U170/XLXI_8
+XOR2 		U171/I_36_240
+AND2B1 		U173/XLXI_1/I_36_7
+AND2B1 		U173/XLXI_3/I_36_7
+OR2 		U173/XLXI_3/I_36_8
+AND2 		U173/XLXI_3/I_36_9
+AND3B1 		U173/XLXI_6/I_36_31
+INV 		U173/XLXI_7
+INV 		U173/XLXI_8
+AND2 		U174/XLXI_2/I_36_9
+INV 		U174/XLXI_7
+INV 		U174/XLXI_8
+INV 		U178/XLXI_118
+INV 		U179/XLXI_118
+AND2B1 		U183/I_36_1
+AND2B1 		U183/I_36_24
+XNOR2 		U183/I_36_26
+FDCE 		U185/I_Q7
+   optimized to 0
+VCC 		U195/I_36_47
+INV 		U244/XLXI_7
+INV 		U244/XLXI_8
+VCC 		U269/I_36_58
+VCC 		U6/I_36_47
+VCC 		U64/I_36_59
+VCC 		U66/I_36_9
+VCC 		U67/I_36_9
+INV 		U80/XLXI_118
+INV 		U81/XLXI_118
+INV 		U82/XLXI_7
+INV 		U82/XLXI_8
+INV 		U83/XLXI_7
+INV 		U83/XLXI_8
+INV 		U84/XLXI_7
+INV 		U84/XLXI_8
+INV 		U85/XLXI_7
+INV 		U85/XLXI_8
+VCC 		U86/I_36_47
+VCC 		XLXI_1240
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| A1_NB2P                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| A2_NB2P                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| A3_NB2P                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| A4_NB2P                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| ADD_NB2P                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| CA_NB2P                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| CB_NB2P                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| CC_NB2P                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| CD_NB2P                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| CE_NB2P                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| CF_NB2P                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| CG_NB2P                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| CLOCK_NP2B                         | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| P1ADD_NP2B                         | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| P1PLAY_NP2B                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| P1SEL0_NP2B                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| P1SEL1_NP2B                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| P1SEL2_NP2B                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| P1SEL3_NP2B                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| P2PLAY_NP2B                        | IBUF             | INPUT     | LVCMOS25             |       |          |      | IFF1         |          | 0 / 3    |
+| RD0_NB2P                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| RD1_NB2P                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| RD2_NB2P                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| RD3_NB2P                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| RESET_NP2B                         | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| SHPTS_NP2B                         | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| STR0_NB2P                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| STR1_NB2P                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| STR2_NB2P                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| TRD1_NP2B                          | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| TRD2_NP2B                          | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| TRD3_NP2B                          | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+U148_85                                 
+U149_84                                 
+U150_82                                 
+U151_83                                 
+U171_92                                 
+U181_94                                 
+U182_93                                 
+U190_75                                 
+U195/U195_I_Q0_28                       
+U195/U195_I_Q1_29                       
+U269/U269_I_Q0_30                       
+U269/U269_I_Q1_31                       
+U269/U269_I_Q2_32                       
+U269/U269_I_Q3_33                       
+U6/U6_I_Q0_28                           
+U6/U6_I_Q1_29                           
+U64/U64_I_Q0_35                         
+U64/U64_I_Q1_36                         
+U64/U64_I_Q2_37                         
+U66/U66_I_Q0_13                         
+U66/U66_I_Q10_22                        
+U66/U66_I_Q11_23                        
+U66/U66_I_Q12_24                        
+U66/U66_I_Q13_25                        
+U66/U66_I_Q14_26                        
+U66/U66_I_Q15_27                        
+U66/U66_I_Q1_12                         
+U66/U66_I_Q2_15                         
+U66/U66_I_Q3_14                         
+U66/U66_I_Q4_19                         
+U66/U66_I_Q5_18                         
+U66/U66_I_Q6_17                         
+U66/U66_I_Q7_16                         
+U66/U66_I_Q8_20                         
+U66/U66_I_Q9_21                         
+U67/U67_I_Q0_13                         
+U67/U67_I_Q1_12                         
+U67/U67_I_Q2_15                         
+U67/U67_I_Q3_14                         
+U67/U67_I_Q4_19                         
+U67/U67_I_Q5_18                         
+U67/U67_I_Q6_17                         
+U67/U67_I_Q7_16                         
+U86/U86_I_Q0_28                         
+U86/U86_I_Q1_29                         
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

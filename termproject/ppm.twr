@@ -1,0 +1,144 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml ppm.twx ppm.ncd -o ppm.twr ppm.pcf -ucf ppm.ucf
+
+Design file:              ppm.ncd
+Physical constraint file: ppm.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2010-11-18)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLOCK_NP2B
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_NP2B     |    5.179|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+P1ADD_NP2B     |A1_NB2P        |   22.531|
+P1ADD_NP2B     |A2_NB2P        |   22.424|
+P1ADD_NP2B     |A3_NB2P        |   22.723|
+P1ADD_NP2B     |A4_NB2P        |   22.302|
+P1ADD_NP2B     |ADD_NB2P       |   17.948|
+P1ADD_NP2B     |RD0_NB2P       |    8.972|
+P1PLAY_NP2B    |CA_NB2P        |   14.403|
+P1PLAY_NP2B    |CB_NB2P        |   14.195|
+P1PLAY_NP2B    |CC_NB2P        |   13.168|
+P1PLAY_NP2B    |CD_NB2P        |   13.358|
+P1PLAY_NP2B    |CE_NB2P        |   13.505|
+P1PLAY_NP2B    |CF_NB2P        |   14.442|
+P1PLAY_NP2B    |CG_NB2P        |   14.408|
+P1SEL0_NP2B    |A1_NB2P        |   23.132|
+P1SEL0_NP2B    |A2_NB2P        |   23.025|
+P1SEL0_NP2B    |A3_NB2P        |   23.324|
+P1SEL0_NP2B    |A4_NB2P        |   22.903|
+P1SEL0_NP2B    |ADD_NB2P       |   18.549|
+P1SEL0_NP2B    |RD0_NB2P       |    9.502|
+P1SEL0_NP2B    |RD1_NB2P       |    8.293|
+P1SEL0_NP2B    |RD2_NB2P       |   13.063|
+P1SEL0_NP2B    |RD3_NB2P       |   10.952|
+P1SEL1_NP2B    |A1_NB2P        |   22.241|
+P1SEL1_NP2B    |A2_NB2P        |   22.134|
+P1SEL1_NP2B    |A3_NB2P        |   22.433|
+P1SEL1_NP2B    |A4_NB2P        |   22.012|
+P1SEL1_NP2B    |ADD_NB2P       |   17.658|
+P1SEL1_NP2B    |RD0_NB2P       |    8.611|
+P1SEL1_NP2B    |RD1_NB2P       |    7.402|
+P1SEL1_NP2B    |RD2_NB2P       |   12.172|
+P1SEL1_NP2B    |RD3_NB2P       |   10.061|
+P1SEL2_NP2B    |A1_NB2P        |   23.130|
+P1SEL2_NP2B    |A2_NB2P        |   23.023|
+P1SEL2_NP2B    |A3_NB2P        |   23.322|
+P1SEL2_NP2B    |A4_NB2P        |   22.901|
+P1SEL2_NP2B    |ADD_NB2P       |   18.547|
+P1SEL2_NP2B    |RD0_NB2P       |    9.500|
+P1SEL2_NP2B    |RD1_NB2P       |    8.291|
+P1SEL2_NP2B    |RD2_NB2P       |   13.061|
+P1SEL2_NP2B    |RD3_NB2P       |   10.950|
+P1SEL3_NP2B    |A1_NB2P        |   23.442|
+P1SEL3_NP2B    |A2_NB2P        |   23.335|
+P1SEL3_NP2B    |A3_NB2P        |   23.634|
+P1SEL3_NP2B    |A4_NB2P        |   23.213|
+P1SEL3_NP2B    |ADD_NB2P       |   18.859|
+P1SEL3_NP2B    |RD0_NB2P       |    9.812|
+P1SEL3_NP2B    |RD1_NB2P       |    8.603|
+P1SEL3_NP2B    |RD2_NB2P       |   13.373|
+P1SEL3_NP2B    |RD3_NB2P       |   11.262|
+SHPTS_NP2B     |A1_NB2P        |    8.943|
+SHPTS_NP2B     |A2_NB2P        |    8.836|
+SHPTS_NP2B     |A3_NB2P        |    9.135|
+SHPTS_NP2B     |A4_NB2P        |    8.714|
+SHPTS_NP2B     |CA_NB2P        |   16.633|
+SHPTS_NP2B     |CB_NB2P        |   15.493|
+SHPTS_NP2B     |CC_NB2P        |   14.466|
+SHPTS_NP2B     |CD_NB2P        |   14.707|
+SHPTS_NP2B     |CE_NB2P        |   15.735|
+SHPTS_NP2B     |CF_NB2P        |   16.672|
+SHPTS_NP2B     |CG_NB2P        |   16.638|
+TRD1_NP2B      |A1_NB2P        |   21.919|
+TRD1_NP2B      |A2_NB2P        |   21.812|
+TRD1_NP2B      |A3_NB2P        |   22.111|
+TRD1_NP2B      |A4_NB2P        |   21.690|
+TRD1_NP2B      |ADD_NB2P       |   17.336|
+TRD1_NP2B      |RD1_NB2P       |    7.162|
+TRD2_NP2B      |A1_NB2P        |   21.861|
+TRD2_NP2B      |A2_NB2P        |   21.754|
+TRD2_NP2B      |A3_NB2P        |   22.053|
+TRD2_NP2B      |A4_NB2P        |   21.632|
+TRD2_NP2B      |ADD_NB2P       |   17.278|
+TRD2_NP2B      |RD2_NB2P       |   12.265|
+TRD3_NP2B      |A1_NB2P        |   21.659|
+TRD3_NP2B      |A2_NB2P        |   21.552|
+TRD3_NP2B      |A3_NB2P        |   21.851|
+TRD3_NP2B      |A4_NB2P        |   21.430|
+TRD3_NP2B      |ADD_NB2P       |   17.076|
+TRD3_NP2B      |RD3_NB2P       |    9.479|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Sep 10 07:29:55 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 195 MB
+
+
+

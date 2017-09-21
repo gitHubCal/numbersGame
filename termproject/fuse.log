@@ -1,0 +1,35 @@
+Running: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/work/academic/cs2204/fall11/labs/termproject/ppm_isim_par.exe -prj D:/work/academic/cs2204/fall11/labs/termproject/ppm_par.prj work.ppm 
+ISim M.81d (signature 0x12940baa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/work/academic/cs2204/fall11/labs/termproject/netgen/par/ppm_timesim.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package textio from library std
+Using precompiled package vital_timing from library ieee
+Using precompiled package vital_primitives from library ieee
+Compiling package vcomponents
+Compiling package vpackage
+Compiling architecture x_buf_v of entity x_buf [\X_BUF(true,true,"UNPLACED",(0,0...]
+Compiling architecture x_xor2_v of entity x_xor2 [\X_XOR2(true,true,"UNPLACED",(0,...]
+Compiling architecture x_mux2_v of entity x_mux2 [\X_MUX2(true,true,"UNPLACED",(0,...]
+Compiling architecture x_and2_v of entity x_and2 [\X_AND2(true,true,"UNPLACED",(0,...]
+Compiling architecture x_lut4_v of entity x_lut4 [\X_LUT4(true,true,"UNPLACED",(0,...]
+Compiling architecture x_ff_v of entity x_ff [\X_FF(true,true,true,"UNPLACED",...]
+Compiling architecture x_zero_v of entity x_zero [\X_ZERO("UNPLACED")(1,8)\]
+Compiling architecture x_inv_v of entity x_inv [\X_INV(true,true,"SLICE_X49Y58",...]
+Compiling architecture x_obuf_v of entity x_obuf [\X_OBUF(true,true,"DONT_CARE",12...]
+Compiling architecture x_bufgmux_v of entity x_bufgmux [\X_BUFGMUX(true,"*",true,false,"...]
+Compiling architecture x_one_v of entity x_one [\X_ONE("UNPLACED")(1,8)\]
+Compiling architecture x_roc_v of entity x_roc [\X_ROC("UNPLACED",100000,"*")(1,...]
+Compiling architecture x_toc_v of entity x_toc [\X_TOC("UNPLACED",0,"*")(1,8,1,1...]
+Compiling architecture structure of entity ppm
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 1894 VHDL Units
+Built simulation executable D:/work/academic/cs2204/fall11/labs/termproject/ppm_isim_par.exe
+Fuse Memory Usage: 69740 KB
+Fuse CPU Usage: 3400 ms

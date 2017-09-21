@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">4274</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">4274</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q0</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">4274</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q1</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">4595</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CLE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">4595</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q3</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CLE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">4595</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CLE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">4611</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D7</arg>&apos; of component &apos;<arg fmt="%s" index="4">D3_8E_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">4625</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">4625</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">4633</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">4633</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">4817</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">4817</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5090</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CD4CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5090</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CD4CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5168</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5185</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5202</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5219</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5420</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5420</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5420</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S2</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5420</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S3</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5529</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD8_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5537</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD8_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5552</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">LT</arg>&apos; of component &apos;<arg fmt="%s" index="4">COMPM8_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5558</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q3</arg>&apos; of component &apos;<arg fmt="%s" index="4">FD4CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5578</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">LT</arg>&apos; of component &apos;<arg fmt="%s" index="4">COMPM2_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5611</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD8_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5611</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD8_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5619</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">LT</arg>&apos; of component &apos;<arg fmt="%s" index="4">COMPM8_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5643</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5643</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q0</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5643</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q1</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5909</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/ppm.vhf</arg>&quot; line <arg fmt="%d" index="2">5909</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_ppm</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/LARGESTDISP.vhf</arg>&quot; line <arg fmt="%d" index="2">313</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">GT</arg>&apos; of component &apos;<arg fmt="%s" index="4">COMPM4_MXILINX_LARGESTDISP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/LARGESTDISP.vhf</arg>&quot; line <arg fmt="%d" index="2">325</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">GT</arg>&apos; of component &apos;<arg fmt="%s" index="4">COMPM4_MXILINX_LARGESTDISP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/LARGESTDISP.vhf</arg>&quot; line <arg fmt="%d" index="2">369</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">GT</arg>&apos; of component &apos;<arg fmt="%s" index="4">COMPM4_MXILINX_LARGESTDISP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/work/academic/cs2204v4/fall13/labs/termproject/CODEDISC.vhf</arg>&quot; line <arg fmt="%d" index="2">425</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q3</arg>&apos; of component &apos;<arg fmt="%s" index="4">FD4CE_MXILINX_CODEDISC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">RDC0</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">QA&lt;14:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">Q&lt;15:8&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">Q&lt;4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">Q&lt;2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U171/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U182/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U182/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U182/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U182/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U182/I4</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U182/I5</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U182/I6</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U181/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U181/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U181/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U181/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U181/I4</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U181/I5</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U181/I6</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">U181/I7</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
